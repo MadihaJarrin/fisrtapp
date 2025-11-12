@@ -48,46 +48,36 @@
                 <td class="auto-style1"></td>
                 <td class="auto-style1"></td>
             </tr>
+
             <tr>
                 <td class="auto-style3">
                     <asp:Button ID="btnCompanyName" runat="server" Style="margin-left: 290px" Text="Show Name" Width="126px" OnClick="btnCompanyName_Click" />
                 </td>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
             </tr>
+
             <tr>
                 <td class="auto-style3">
                     <asp:Label ID="Label2" runat="server" Text="Show Company Name: "></asp:Label>
                     <asp:TextBox ID="lblDisplayCompanyName" runat="server" Style="margin-left: 41px" Width="266px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
             </tr>
-
 
             <tr>
                 <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
             </tr>
-
 
             <tr>
                 <td class="auto-style3">
                     <asp:Label ID="Label3" runat="server" Text="Company Adress: "></asp:Label>
                     <asp:TextBox ID="txtCompanyAdress" runat="server" Style="margin-left: 85px" Width="269px"></asp:TextBox>
-
                     <asp:Button ID="btnShowAddress" runat="server" Style="margin-left: 39px" Text="Show Address" Width="184px" OnClick="btnShowAddress_Click" />
-
                     <asp:Label ID="lblShowAdress" runat="server" Text=""></asp:Label>
-
-
-
                 </td>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
             </tr>
-
 
             <tr>
                 <td class="auto-style3">
@@ -97,9 +87,7 @@
                     <asp:Label ID="lblEmployeeName" runat="server" Text=""></asp:Label>
                 </td>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
             </tr>
-
 
             <tr>
                 <td class="auto-style3">
@@ -108,7 +96,6 @@
                     <asp:Button ID="btnEmployeeSalary" runat="server" Text="Show Employee Salary" Width="185px" Style="margin-left: 45px" OnClick="btnEmployeeSalary_Click" />
                     <asp:Label ID="lblEmployeeSalary" runat="server" Text=""></asp:Label>
                 </td>
-                <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
 
@@ -123,15 +110,11 @@
 
             <tr>
                 <td>
-
                     <asp:Label ID="Label8" runat="server" Text="Company Description:"></asp:Label>
                     <asp:TextBox ID="txtCompanyDescription" runat="server"></asp:TextBox>
                     <asp:Button ID="btnCompanyDescription" runat="server" Text="Show Description" Width="185px" Style="margin-left: 38px" OnClick="btnCompanyDescription_Click" />
                     <asp:Label ID="lblCompanyDescription" runat="server" Text=""></asp:Label>
-
-
                 </td>
-
             </tr>
 
         </table>

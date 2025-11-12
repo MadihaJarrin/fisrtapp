@@ -21,11 +21,6 @@ namespace fisrtapp.UI
           
         }
 
-        protected void txtCompanyName_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         protected void btnShowAddress_Click(object sender, EventArgs e)
         {
             string adress = txtCompanyAdress.Text;
